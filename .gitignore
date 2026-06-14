@@ -1,0 +1,27 @@
+# Python
+test/__pycache__
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Linux
+*~
+*.swp
+
+# ROS generated
+*.egg-info/
+
+# IDE
+.idea/
+
+# Misc
+.DS_Store
