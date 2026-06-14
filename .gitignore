@@ -1,5 +1,5 @@
 # Python
-src/drive_safety_gateway/test/__pycache__
+test/__pycache__
 __pycache__/
 *.pyc
 *.pyo
