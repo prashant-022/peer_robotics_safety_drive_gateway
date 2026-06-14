@@ -288,19 +288,28 @@ Velocity commands should arrive reliably while avoiding excessive queue growth.
 # Build
 
 ```bash
-mkdir -p peer_robot_ws/src
+Pre-requisite:
+  - Ubuntu 22.04
+  - ROS 2 Humble
+  - Python 3.10+
+  - colcon build tools
 
-cd ~/peer_robot_ws/src
+Clone the repository:
+    mkdir -p peer_robot_ws/src
+    cd ~/peer_robot_ws/src
 
-git clone https://github.com/prashant-022/peer_robotics_safety_drive_gateway.git
+    git clone https://github.com/prashant-022/peer_robotics_safety_drive_gateway.git
 
-cd ~/peer_robot_ws
+Build the workspace:
+    cd ~/peer_robot_ws
 
-source /opt/ros/humble/setup.bash
+    source /opt/ros/humble/setup.bash
 
-colcon build --symlink-install
+    colcon build --symlink-install
 
-source install/setup.bash
+Source the package:
+    source /opt/ros/humble/setup.bash
+    source ~/peer_robot_ws/install/setup.bash
 ```
 
 ---
